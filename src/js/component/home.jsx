@@ -1,5 +1,5 @@
 import React from "react";
-import propTypes from "prop-types";
+import PropTypes from 'prop-types';
 import SimpleCounter from "./simpleCounter";
 import calculateSeconds from "../lib/time";
 
@@ -23,12 +23,12 @@ const Home = (props) => {
 };
 
 Home.propTypes = {
-	hundredThousandsDigit: propTypes.number,
-	tenThousandsDigit: propTypes.number,
-	thousandsDigit: propTypes.number,
-	hundredsDigit: propTypes.number,
-	tensDigit: propTypes.number,
-	onesDigit: propTypes.number
+	hundredThousandsDigit: PropTypes.number,
+	tenThousandsDigit: PropTypes.number,
+	thousandsDigit: PropTypes.number,
+	hundredsDigit: PropTypes.number,
+	tensDigit: PropTypes.number,
+	onesDigit: PropTypes.number
 }
 
 export default Home;
